@@ -1,0 +1,274 @@
+/* ==========================================================================
+   StudentAI — AI-Powered Academic Performance Intelligence
+   SaaS Analytics Stylesheet (assets/styles.css)
+   Clean typography, subtle shadows, modern cards, responsive hierarchy
+   ========================================================================== */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+html, body, [class*="css"] {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    color: #0F172A;
+}
+
+.block-container {
+    padding-top: 1.75rem !important;
+    padding-bottom: 2.5rem !important;
+    max-width: 1280px;
+}
+
+/* Header Banner & Brand */
+.saas-page-header {
+    background: #FFFFFF;
+    border: 1px solid #E2E8F0;
+    border-radius: 12px;
+    padding: 1.25rem 1.5rem;
+    margin-bottom: 1.25rem;
+    box-shadow: 0 1px 3px rgba(15, 23, 42, 0.04);
+}
+
+.saas-page-title {
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: #0F172A;
+    margin: 0 0 0.25rem 0;
+    letter-spacing: -0.02em;
+}
+
+.saas-page-subtitle {
+    font-size: 0.9rem;
+    color: #64748B;
+    margin: 0;
+}
+
+/* KPI Metric Cards */
+.kpi-card {
+    background: #FFFFFF;
+    border: 1px solid #E2E8F0;
+    border-radius: 12px;
+    padding: 1.15rem 1.25rem;
+    box-shadow: 0 1px 2px rgba(15, 23, 42, 0.04);
+    transition: border-color 0.15s ease, box-shadow 0.15s ease;
+    height: 100%;
+}
+
+.kpi-card:hover {
+    border-color: #CBD5E1;
+    box-shadow: 0 4px 12px rgba(15, 23, 42, 0.06);
+}
+
+.kpi-label {
+    font-size: 0.78rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    color: #64748B;
+    margin-bottom: 0.35rem;
+}
+
+.kpi-value {
+    font-size: 1.65rem;
+    font-weight: 700;
+    color: #0F172A;
+    line-height: 1.2;
+}
+
+.kpi-sub {
+    font-size: 0.78rem;
+    color: #475569;
+    margin-top: 0.35rem;
+}
+
+/* Content Cards */
+.saas-card {
+    background: #FFFFFF;
+    border: 1px solid #E2E8F0;
+    border-radius: 12px;
+    padding: 1.35rem 1.5rem;
+    margin-bottom: 1rem;
+    box-shadow: 0 1px 3px rgba(15, 23, 42, 0.03);
+}
+
+/* Risk Badges */
+.risk-badge-low {
+    display: inline-block;
+    background: #DCFCE7;
+    color: #166534;
+    border: 1px solid #86EFAC;
+    font-weight: 600;
+    font-size: 0.82rem;
+    padding: 0.28rem 0.75rem;
+    border-radius: 9999px;
+}
+
+.risk-badge-medium {
+    display: inline-block;
+    background: #FEF3C7;
+    color: #92400E;
+    border: 1px solid #FDE68A;
+    font-weight: 600;
+    font-size: 0.82rem;
+    padding: 0.28rem 0.75rem;
+    border-radius: 9999px;
+}
+
+.risk-badge-high {
+    display: inline-block;
+    background: #FEE2E2;
+    color: #991B1B;
+    border: 1px solid #FCA5A5;
+    font-weight: 600;
+    font-size: 0.82rem;
+    padding: 0.28rem 0.75rem;
+    border-radius: 9999px;
+}
+
+/* Empty State Box */
+.empty-state-box {
+    background: #FFFFFF;
+    border: 1px dashed #CBD5E1;
+    border-radius: 12px;
+    padding: 2.5rem 2rem;
+    text-align: center;
+    margin: 1rem 0;
+}
+
+.empty-state-title {
+    font-size: 1.15rem;
+    font-weight: 600;
+    color: #0F172A;
+    margin-bottom: 0.4rem;
+}
+
+.empty-state-desc {
+    font-size: 0.9rem;
+    color: #64748B;
+    max-width: 520px;
+    margin: 0 auto 1.2rem auto;
+}
+
+/* Auth / Landing Card Clean Design */
+.saas-auth-card {
+    background: #FFFFFF;
+    border: 1px solid #E2E8F0;
+    border-radius: 18px;
+    padding: 2.25rem 2.5rem;
+    box-shadow: 0 10px 25px -5px rgba(15, 23, 42, 0.06), 0 8px 10px -6px rgba(15, 23, 42, 0.03);
+    margin: 0 auto;
+}
+
+.auth-header-icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 60px;
+    height: 60px;
+    background: linear-gradient(135deg, #2563EB 0%, #1D4ED8 100%);
+    border-radius: 16px;
+    box-shadow: 0 8px 20px -4px rgba(37, 99, 235, 0.35);
+    margin-bottom: 0.85rem;
+    font-size: 28px;
+}
+
+.auth-header-title {
+    font-size: 2.1rem;
+    font-weight: 800;
+    color: #0F172A;
+    margin: 0 0 0.35rem 0;
+    letter-spacing: -0.03em;
+}
+
+.auth-header-subtitle {
+    font-size: 0.95rem;
+    color: #64748B;
+    margin: 0;
+    font-weight: 500;
+}
+
+.auth-divider-line {
+    display: flex;
+    align-items: center;
+    margin: 1.5rem 0 1.25rem 0;
+}
+
+.auth-divider-line::before,
+.auth-divider-line::after {
+    content: "";
+    flex: 1;
+    border-bottom: 1px solid #E2E8F0;
+}
+
+.auth-divider-text {
+    padding: 0 1rem;
+    font-size: 0.76rem;
+    font-weight: 600;
+    color: #94A3B8;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+}
+
+.auth-feature-pill {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4rem;
+    background: #FFFFFF;
+    border: 1px solid #E2E8F0;
+    color: #475569;
+    font-size: 0.82rem;
+    font-weight: 600;
+    padding: 0.4rem 0.9rem;
+    border-radius: 9999px;
+    box-shadow: 0 1px 2px rgba(15, 23, 42, 0.04);
+    transition: transform 0.15s ease, border-color 0.15s ease;
+}
+
+.auth-feature-pill:hover {
+    border-color: #CBD5E1;
+    transform: translateY(-1px);
+}
+
+/* Legacy Auth / Landing Card */
+.auth-brand-box {
+    background: #0F172A;
+    color: #F8FAFC;
+    border-radius: 14px;
+    padding: 2rem;
+    height: 100%;
+    border: 1px solid #1E293B;
+}
+
+.auth-brand-title {
+    font-size: 1.85rem;
+    font-weight: 700;
+    color: #FFFFFF;
+    letter-spacing: -0.02em;
+    margin-bottom: 0.25rem;
+}
+
+.auth-brand-subtitle {
+    font-size: 0.95rem;
+    color: #94A3B8;
+    margin-bottom: 1.5rem;
+}
+
+.auth-pipeline-step {
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
+    padding: 0.65rem 0.9rem;
+    margin-bottom: 0.55rem;
+    font-size: 0.84rem;
+    color: #E2E8F0;
+}
+
+/* Role Pill */
+.role-pill {
+    display: inline-block;
+    font-size: 0.72rem;
+    font-weight: 600;
+    padding: 0.15rem 0.55rem;
+    border-radius: 6px;
+    background: #EFF6FF;
+    color: #1D4ED8;
+    border: 1px solid #BFDBFE;
+}

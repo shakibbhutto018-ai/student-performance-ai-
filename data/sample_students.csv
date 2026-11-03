@@ -1,0 +1,305 @@
+student_id,course,semester,subject,gender,assessment_date,attendance,study_hours,assignment_score,internal_marks,previous_score,final_score,result
+BCA26-1001,BCA Core,Sem 1,Software Engineering,Male,2026-07-01,82.0,3.9,59.9,77.5,64.9,68.1,Pass
+BCA26-1002,BCA Cloud & Cyber,Sem 3,Database Management Systems,Female,2026-07-01,85.1,6.6,74.9,91.7,90.5,99.0,Pass
+BCA26-1003,BCA AI & DS,Sem 3,Operating Systems,Female,2026-07-01,91.4,4.1,76.7,90.8,88.3,89.6,Pass
+BCA26-1004,BCA AI & DS,Sem 3,Database Management Systems,Male,2026-07-02,77.4,4.5,66.4,92.4,91.7,84.0,Pass
+BCA26-1005,BCA Core,Sem 3,Software Engineering,Male,2026-07-02,67.9,4.2,66.5,75.5,69.7,76.2,Pass
+BCA26-1006,BCA Core,Sem 4,Software Engineering,Male,2026-07-03,70.1,4.4,77.3,74.1,71.0,76.0,Pass
+BCA26-1007,BCA Core,Sem 3,Data Structures,Male,2026-07-03,70.2,3.4,69.9,69.5,73.3,74.8,Pass
+BCA26-1008,BCA Cloud & Cyber,Sem 2,Software Engineering,Male,2026-07-03,63.7,2.6,72.7,68.1,69.0,67.8,Pass
+BCA26-1009,BCA AI & DS,Sem 3,Data Structures,Male,2026-07-04,80.8,4.0,76.4,72.1,80.5,82.4,Pass
+BCA26-1010,BCA AI & DS,Sem 2,Operating Systems,Female,2026-07-04,68.0,4.5,77.6,74.2,74.6,73.6,Pass
+BCA26-1011,BCA Core,Sem 2,Database Management Systems,Male,2026-07-05,79.1,4.4,75.1,89.3,71.6,88.6,Pass
+BCA26-1012,BCA Cloud & Cyber,Sem 1,Database Management Systems,Male,2026-07-05,74.4,5.1,71.7,79.0,81.4,84.9,Pass
+BCA26-1013,BCA Cloud & Cyber,Sem 1,Data Structures,Female,2026-07-05,,4.9,85.2,84.0,64.3,84.9,Pass
+BCA26-1014,BCA Core,Sem 4,Database Management Systems,Male,2026-07-06,84.0,2.3,67.1,70.6,69.5,66.2,Pass
+BCA26-1015,BCA Core,Sem 4,Software Engineering,Female,2026-07-06,69.2,4.2,73.1,90.1,80.2,88.8,Pass
+BCA26-1016,BCA Core,Sem 3,Python Programming,Female,2026-07-07,85.1,7.4,91.5,98.0,71.7,97.4,Pass
+BCA26-1017,BCA Core,Sem 2,Data Structures,Male,2026-07-07,97.7,7.1,96.4,98.0,79.7,99.0,Pass
+BCA26-1018,BCA AI & DS,Sem 1,Database Management Systems,Female,2026-07-07,81.1,5.1,70.8,98.0,79.6,86.9,Pass
+BCA26-1019,BCA Core,Sem 1,Data Structures,Male,2026-07-08,65.9,2.6,71.8,73.4,66.7,69.9,Pass
+BCA26-1020,BCA Core,Sem 2,Data Structures,Male,2026-07-08,68.2,4.4,64.6,80.2,62.0,74.7,Pass
+BCA26-1021,BCA AI & DS,Sem 3,Python Programming,Male,2026-07-09,73.1,5.0,80.0,87.9,68.5,70.9,Pass
+BCA26-1022,BCA Core,Sem 3,Software Engineering,Male,2026-07-09,68.5,3.6,72.3,73.9,58.0,72.8,Pass
+BCA26-1023,BCA Core,Sem 3,Data Structures,Female,2026-07-09,63.1,3.9,72.7,65.5,73.0,79.2,Pass
+BCA26-1024,BCA Core,Sem 2,Database Management Systems,Male,2026-07-10,78.6,6.2,72.5,91.4,74.2,90.1,Pass
+BCA26-1025,BCA Core,Sem 4,Operating Systems,Male,2026-07-10,73.5,3.3,73.9,76.3,81.4,72.8,Pass
+BCA26-1026,BCA AI & DS,Sem 3,Data Structures,Male,2026-07-11,79.1,3.4,79.8,76.7,70.8,80.0,Pass
+BCA26-1027,BCA Core,Sem 3,Data Structures,Female,2026-07-11,92.5,6.1,87.2,94.6,79.1,99.0,Pass
+BCA26-1028,BCA AI & DS,Sem 3,Python Programming,Male,2026-07-11,73.3,,68.6,83.1,68.6,80.6,Pass
+BCA26-1029,BCA AI & DS,Sem 2,Software Engineering,Female,2026-07-12,60.5,4.6,74.3,74.6,64.5,72.9,Pass
+BCA26-1030,BCA Core,Sem 2,Operating Systems,Male,2026-07-12,71.1,4.7,73.8,83.2,71.1,78.5,Pass
+BCA26-1031,BCA AI & DS,Sem 2,Database Management Systems,Female,2026-07-13,86.9,4.4,67.9,85.4,93.9,85.7,Pass
+BCA26-1032,BCA Core,Sem 3,Operating Systems,Female,2026-07-13,85.6,5.4,75.2,87.1,74.3,89.6,Pass
+BCA26-1033,BCA Core,Sem 1,Database Management Systems,Female,2026-07-13,83.5,3.6,71.7,86.2,69.8,73.7,Pass
+BCA26-1034,BCA Cloud & Cyber,Sem 1,Software Engineering,Female,2026-07-14,68.1,3.6,78.5,85.3,67.2,75.1,Pass
+BCA26-1035,BCA Cloud & Cyber,Sem 1,Database Management Systems,Male,2026-07-14,86.7,5.6,90.7,98.0,85.8,99.0,Pass
+BCA26-1036,BCA Cloud & Cyber,Sem 1,Python Programming,Female,2026-07-15,89.7,4.8,89.7,88.3,66.3,94.3,Pass
+BCA26-1037,BCA Core,Sem 4,Python Programming,Male,2026-07-15,67.1,6.5,77.9,88.6,76.2,80.6,Pass
+BCA26-1038,BCA Core,Sem 3,Python Programming,Male,2026-07-15,75.9,2.3,74.3,84.8,60.5,67.8,Pass
+BCA26-1039,BCA AI & DS,Sem 3,Python Programming,Male,2026-07-16,99.5,5.2,78.9,90.6,85.4,92.2,Pass
+BCA26-1040,BCA Core,Sem 1,Operating Systems,Female,2026-07-16,66.5,2.8,65.8,74.4,60.7,71.0,Pass
+BCA26-1041,BCA Core,Sem 3,Software Engineering,Male,2026-07-17,53.5,2.2,61.6,64.5,41.3,47.3,Fail
+BCA26-1042,BCA Core,Sem 3,Database Management Systems,Female,2026-07-17,95.2,4.8,76.4,98.0,81.7,91.9,Pass
+BCA26-1043,BCA Core,Sem 1,Database Management Systems,Female,2026-07-17,91.8,3.8,80.6,79.8,78.2,81.8,Pass
+BCA26-1044,BCA Cloud & Cyber,Sem 2,Python Programming,Female,2026-07-18,70.3,4.8,83.9,72.6,65.8,83.1,Pass
+BCA26-1045,BCA Core,Sem 2,Python Programming,Female,2026-07-18,75.0,3.7,75.5,77.1,64.6,68.0,Pass
+BCA26-1046,BCA AI & DS,Sem 3,Data Structures,Female,2026-07-19,60.0,3.6,,71.0,54.1,67.0,Pass
+BCA26-1047,BCA Core,Sem 3,Software Engineering,Female,2026-07-19,77.7,4.0,57.9,88.2,76.8,77.0,Pass
+BCA26-1048,BCA AI & DS,Sem 1,Operating Systems,Female,2026-07-20,92.2,4.6,91.7,93.1,84.0,99.0,Pass
+BCA26-1049,BCA AI & DS,Sem 2,Database Management Systems,Female,2026-07-20,69.2,5.8,74.1,79.3,65.4,82.2,Pass
+BCA26-1050,BCA Core,Sem 3,Data Structures,Female,2026-07-20,88.3,6.1,79.2,92.9,75.3,89.2,Pass
+BCA26-1051,BCA Cloud & Cyber,Sem 3,Data Structures,Female,2026-07-21,82.8,2.7,71.2,80.3,69.4,78.8,Pass
+BCA26-1052,BCA AI & DS,Sem 4,Database Management Systems,Male,2026-07-21,84.3,2.7,63.3,93.5,87.5,80.0,Pass
+BCA26-1053,BCA Cloud & Cyber,Sem 3,Operating Systems,Male,2026-07-22,70.0,5.1,80.5,81.8,74.8,86.3,Pass
+BCA26-1054,BCA Cloud & Cyber,Sem 1,Data Structures,Male,2026-07-22,71.7,3.5,67.7,72.1,60.7,69.0,Pass
+BCA26-1055,BCA AI & DS,Sem 1,Data Structures,Male,2026-07-22,51.6,1.1,50.0,62.8,57.8,56.9,Fail
+BCA26-1056,BCA Cloud & Cyber,Sem 3,Software Engineering,Female,2026-07-23,68.8,5.1,72.1,78.3,60.0,77.8,Pass
+BCA26-1057,BCA Core,Sem 1,Operating Systems,Female,2026-07-23,92.2,5.5,91.4,83.0,84.8,99.0,Pass
+BCA26-1058,BCA Core,Sem 3,Data Structures,Female,2026-07-24,64.0,3.9,68.7,76.2,78.5,74.3,Pass
+BCA26-1059,BCA Core,Sem 4,Operating Systems,Male,2026-07-24,66.0,4.7,61.7,79.0,81.0,78.6,Pass
+BCA26-1060,BCA Core,Sem 3,Database Management Systems,Female,2026-07-24,85.1,3.5,78.6,80.0,78.0,79.1,Pass
+BCA26-1061,BCA Core,Sem 2,Python Programming,Female,2026-07-25,81.9,2.9,66.5,84.0,65.7,74.8,Pass
+BCA26-1062,BCA Core,Sem 3,Data Structures,Female,2026-07-25,85.8,6.7,70.8,85.0,70.0,76.3,Pass
+BCA26-1063,BCA Cloud & Cyber,Sem 3,Software Engineering,Female,2026-07-26,60.8,1.9,70.6,66.6,50.0,62.0,Pass
+BCA26-1064,BCA Core,Sem 3,Database Management Systems,Female,2026-07-26,99.5,4.4,87.1,85.8,58.5,91.3,Pass
+BCA26-1065,BCA Core,Sem 4,Operating Systems,Male,2026-07-26,60.1,2.3,61.2,68.8,66.3,65.0,Pass
+BCA26-1066,BCA AI & DS,Sem 2,Database Management Systems,Female,2026-07-27,78.6,6.8,79.8,91.2,76.7,85.8,Pass
+BCA26-1067,BCA Core,Sem 4,Data Structures,Male,2026-07-27,74.4,4.8,83.8,74.7,78.4,78.4,Pass
+BCA26-1068,BCA Cloud & Cyber,Sem 4,Operating Systems,Male,2026-07-28,60.5,4.5,88.1,77.3,76.8,69.0,Pass
+BCA26-1069,BCA Core,Sem 1,Python Programming,Female,2026-07-28,71.5,4.3,75.0,92.1,70.2,85.3,Pass
+BCA26-1070,BCA Cloud & Cyber,Sem 1,Database Management Systems,Male,2026-07-28,76.8,3.7,65.9,69.7,71.1,68.6,Pass
+BCA26-1071,BCA AI & DS,Sem 1,Data Structures,Female,2026-07-29,67.7,4.6,70.3,76.2,65.3,74.5,Pass
+BCA26-1072,BCA Core,Sem 1,Software Engineering,Male,2026-07-29,89.2,3.4,79.8,89.8,71.1,82.6,Pass
+BCA26-1073,BCA Core,Sem 1,Operating Systems,Female,2026-07-30,74.3,3.1,54.6,78.9,73.3,77.8,Pass
+BCA26-1074,BCA Cloud & Cyber,Sem 3,Database Management Systems,Male,2026-07-30,58.4,4.1,68.2,75.5,63.2,70.6,Pass
+BCA26-1075,BCA AI & DS,Sem 1,Database Management Systems,Female,2026-07-30,57.2,1.7,61.6,49.1,56.4,56.9,Pass
+BCA26-1076,BCA AI & DS,Sem 2,Python Programming,Female,2026-07-31,84.7,4.7,87.4,89.0,74.8,90.0,Pass
+BCA26-1077,BCA AI & DS,Sem 4,Python Programming,Male,2026-07-31,56.4,3.0,70.0,64.3,68.0,70.9,Pass
+BCA26-1078,BCA Core,Sem 1,Software Engineering,Female,2026-08-01,80.8,4.1,76.1,82.6,67.1,78.5,Pass
+BCA26-1079,BCA Core,Sem 4,Software Engineering,Female,2026-08-01,82.5,2.6,81.8,77.9,69.1,84.1,Pass
+BCA26-1080,BCA Core,Sem 2,Data Structures,Male,2026-08-01,63.1,2.9,77.9,84.3,65.3,64.6,Pass
+BCA26-1081,BCA Cloud & Cyber,Sem 1,Data Structures,Male,2026-08-02,88.5,4.2,79.1,90.9,83.9,91.7,Pass
+BCA26-1082,BCA AI & DS,Sem 3,Software Engineering,Male,2026-08-02,53.3,3.2,64.1,65.5,58.9,58.5,Pass
+BCA26-1083,BCA Core,Sem 3,Software Engineering,Male,2026-08-03,80.5,4.8,65.8,73.6,68.4,74.9,Pass
+BCA26-1084,BCA Core,Sem 4,Operating Systems,Female,2026-08-03,75.9,4.8,65.9,81.6,68.5,80.7,Pass
+BCA26-1085,BCA Core,Sem 3,Python Programming,Female,2026-08-03,74.9,3.6,66.1,84.3,77.0,80.0,Pass
+BCA26-1086,BCA Core,Sem 4,Data Structures,Male,2026-08-04,60.6,4.0,63.8,75.2,80.3,75.8,Pass
+BCA26-1087,BCA AI & DS,Sem 2,Python Programming,Male,2026-08-04,63.9,1.9,55.0,62.4,51.7,51.0,Pass
+BCA26-1088,BCA AI & DS,Sem 1,Python Programming,Female,2026-08-05,98.4,3.7,81.5,83.5,69.4,90.3,Pass
+BCA26-1089,BCA Cloud & Cyber,Sem 3,Software Engineering,Male,2026-08-05,92.9,2.8,74.2,,72.4,76.9,Pass
+BCA26-1090,BCA Core,Sem 4,Operating Systems,Male,2026-08-06,86.5,4.4,85.6,90.1,75.8,84.3,Pass
+BCA26-1091,BCA Core,Sem 4,Database Management Systems,Female,2026-08-06,89.2,4.3,76.4,95.8,81.6,91.5,Pass
+BCA26-1092,BCA AI & DS,Sem 2,Operating Systems,Female,2026-08-06,87.9,5.9,68.6,83.0,72.1,84.3,Pass
+BCA26-1093,BCA AI & DS,Sem 2,Operating Systems,Female,2026-08-07,72.1,3.4,70.6,77.2,59.7,72.9,Pass
+BCA26-1094,BCA AI & DS,Sem 3,Python Programming,Female,2026-08-07,77.1,4.7,75.4,81.5,73.4,72.2,Pass
+BCA26-1095,BCA AI & DS,Sem 2,Operating Systems,Male,2026-08-08,56.6,4.1,59.6,69.8,61.9,67.4,Pass
+BCA26-1096,BCA Core,Sem 4,Data Structures,Female,2026-08-08,75.3,3.6,72.3,81.8,76.2,79.0,Pass
+BCA26-1097,BCA AI & DS,Sem 4,Python Programming,Male,2026-08-08,92.5,5.7,77.8,95.2,83.6,91.6,Pass
+BCA26-1098,BCA Core,Sem 2,Data Structures,Male,2026-08-09,67.6,5.0,74.5,82.6,73.8,71.4,Pass
+BCA26-1099,BCA Core,Sem 3,Database Management Systems,Male,2026-08-09,90.3,3.9,96.0,79.1,74.4,84.8,Pass
+BCA26-1100,BCA Core,Sem 3,Python Programming,Male,2026-08-10,77.7,4.5,63.5,81.0,89.8,81.8,Pass
+BCA26-1101,BCA Core,Sem 1,Database Management Systems,Female,2026-08-10,57.8,2.5,57.9,74.1,54.4,60.0,Pass
+BCA26-1102,BCA AI & DS,Sem 4,Python Programming,Male,2026-08-10,61.6,2.2,57.6,67.1,66.0,54.4,Pass
+BCA26-1103,BCA Core,Sem 3,Software Engineering,Male,2026-08-11,88.9,3.4,74.0,83.2,64.1,85.3,Pass
+BCA26-1104,BCA AI & DS,Sem 4,Operating Systems,Male,2026-08-11,84.0,3.5,81.7,86.1,64.0,77.4,Pass
+BCA26-1105,BCA Cloud & Cyber,Sem 2,Software Engineering,Male,2026-08-12,77.9,4.5,78.8,83.5,67.6,79.9,Pass
+BCA26-1106,BCA Core,Sem 4,Database Management Systems,Female,2026-08-12,72.8,2.4,72.8,79.1,78.0,64.0,Pass
+BCA26-1107,BCA Core,Sem 2,Operating Systems,Male,2026-08-12,79.3,4.0,74.7,86.7,73.5,87.9,Pass
+BCA26-1108,BCA AI & DS,Sem 1,Python Programming,Female,2026-08-13,88.4,6.0,75.3,77.3,74.7,84.2,Pass
+BCA26-1109,BCA Core,Sem 4,Operating Systems,Male,2026-08-13,96.4,6.1,80.3,92.6,85.0,96.2,Pass
+BCA26-1110,BCA Core,Sem 1,Data Structures,Female,2026-08-14,97.1,5.0,89.6,94.9,80.2,99.0,Pass
+BCA26-1111,BCA Core,Sem 2,Operating Systems,Female,2026-08-14,81.5,6.5,83.5,96.8,74.1,90.1,Pass
+BCA26-1112,BCA Core,Sem 4,Data Structures,Male,2026-08-14,74.2,6.3,87.0,83.5,64.4,89.7,Pass
+BCA26-1113,BCA Cloud & Cyber,Sem 4,Operating Systems,Female,2026-08-15,78.5,4.5,77.5,79.3,83.2,74.3,Pass
+BCA26-1114,BCA Cloud & Cyber,Sem 3,Data Structures,Male,2026-08-15,83.5,2.1,63.3,72.6,70.4,72.6,Pass
+BCA26-1115,BCA AI & DS,Sem 3,Database Management Systems,Male,2026-08-16,83.5,5.8,77.9,97.1,,99.0,Pass
+BCA26-1116,BCA Cloud & Cyber,Sem 2,Software Engineering,Female,2026-08-16,94.2,2.9,81.4,84.6,81.4,81.7,Pass
+BCA26-1117,BCA Cloud & Cyber,Sem 2,Python Programming,Male,2026-08-16,99.5,7.4,97.1,98.0,90.2,99.0,Pass
+BCA26-1118,BCA Core,Sem 2,Operating Systems,Male,2026-08-17,73.7,5.4,81.6,85.5,69.4,91.5,Pass
+BCA26-1119,BCA Cloud & Cyber,Sem 3,Software Engineering,Female,2026-08-17,99.5,7.7,86.5,81.9,78.5,96.3,Pass
+BCA26-1120,BCA AI & DS,Sem 3,Python Programming,Male,2026-08-18,92.3,5.6,76.6,98.0,78.0,91.4,Pass
+BCA26-1121,BCA Cloud & Cyber,Sem 3,Python Programming,Female,2026-08-18,75.1,3.9,71.2,72.4,61.4,68.9,Pass
+BCA26-1122,BCA Cloud & Cyber,Sem 3,Data Structures,Male,2026-08-18,96.7,5.1,94.3,94.6,84.9,94.4,Pass
+BCA26-1123,BCA Core,Sem 1,Database Management Systems,Female,2026-08-19,99.3,5.2,81.8,86.1,93.4,91.0,Pass
+BCA26-1124,BCA Core,Sem 3,Database Management Systems,Female,2026-08-19,70.3,5.1,76.8,77.1,68.9,75.1,Pass
+BCA26-1125,BCA Core,Sem 1,Software Engineering,Female,2026-08-20,99.5,6.6,93.2,98.0,91.4,99.0,Pass
+BCA26-1126,BCA Core,Sem 3,Database Management Systems,Female,2026-08-20,91.0,5.4,88.3,77.8,73.6,84.4,Pass
+BCA26-1127,BCA Cloud & Cyber,Sem 2,Operating Systems,Male,2026-08-20,99.5,5.0,96.6,98.0,78.6,98.0,Pass
+BCA26-1128,BCA Cloud & Cyber,Sem 4,Database Management Systems,Female,2026-08-21,70.8,6.9,89.2,82.6,68.8,87.8,Pass
+BCA26-1129,BCA Core,Sem 2,Software Engineering,Male,2026-08-21,71.7,5.1,70.5,80.1,55.3,82.0,Pass
+BCA26-1130,BCA AI & DS,Sem 1,Database Management Systems,Male,2026-08-22,49.1,1.0,39.8,62.0,54.1,46.5,Fail
+BCA26-1131,BCA Core,Sem 1,Operating Systems,Male,2026-08-22,84.2,4.3,73.0,86.9,74.9,84.7,Pass
+BCA26-1132,BCA Core,Sem 3,Data Structures,Male,2026-08-23,81.6,5.7,80.7,83.6,84.1,92.1,Pass
+BCA26-1133,BCA Core,Sem 3,Software Engineering,Male,2026-08-23,68.9,3.1,65.3,72.6,71.9,76.7,Pass
+BCA26-1134,BCA Core,Sem 1,Data Structures,Female,2026-08-23,75.4,4.7,87.6,73.7,77.8,79.9,Pass
+BCA26-1135,BCA Cloud & Cyber,Sem 1,Data Structures,Female,2026-08-24,58.8,4.4,67.1,74.1,58.0,66.7,Pass
+BCA26-1136,BCA Core,Sem 3,Data Structures,Female,2026-08-24,92.7,1.6,77.7,90.8,74.4,75.4,Pass
+BCA26-1137,BCA AI & DS,Sem 1,Python Programming,Male,2026-08-25,69.9,3.9,71.7,67.9,79.9,83.8,Pass
+BCA26-1138,BCA AI & DS,Sem 4,Python Programming,Female,2026-08-25,99.5,5.7,85.5,91.2,85.2,99.0,Pass
+BCA26-1139,BCA Core,Sem 3,Data Structures,Male,2026-08-25,74.1,3.8,59.3,79.8,83.0,76.5,Pass
+BCA26-1140,BCA Cloud & Cyber,Sem 1,Software Engineering,Male,2026-08-26,66.2,4.1,68.8,79.6,82.3,85.5,Pass
+BCA26-1141,BCA Cloud & Cyber,Sem 1,Operating Systems,Male,2026-08-26,70.9,4.8,94.4,84.3,68.4,83.2,Pass
+BCA26-1142,BCA Core,Sem 4,Operating Systems,Male,2026-08-27,57.4,3.4,55.5,67.0,57.3,65.0,Pass
+BCA26-1143,BCA Core,Sem 2,Database Management Systems,Female,2026-08-27,83.0,4.4,65.4,80.6,68.0,78.4,Pass
+BCA26-1144,BCA Core,Sem 2,Software Engineering,Female,2026-08-27,70.8,4.7,85.5,83.2,58.7,80.8,Pass
+BCA26-1145,BCA Core,Sem 4,Python Programming,Male,2026-08-28,91.8,5.4,88.5,93.9,75.1,94.0,Pass
+BCA26-1146,BCA Core,Sem 4,Data Structures,Male,2026-08-28,72.8,3.9,72.7,82.8,78.1,77.3,Pass
+BCA26-1147,BCA AI & DS,Sem 4,Database Management Systems,Male,2026-08-29,95.2,4.1,90.3,85.5,60.8,89.6,Pass
+BCA26-1148,BCA AI & DS,Sem 3,Operating Systems,Male,2026-08-29,86.7,3.3,70.2,86.4,64.8,81.1,Pass
+BCA26-1149,BCA Core,Sem 2,Python Programming,Female,2026-08-29,76.9,2.9,69.7,72.3,67.3,75.8,Pass
+BCA26-1150,BCA Core,Sem 1,Python Programming,Male,2026-08-30,97.8,6.0,94.1,89.1,75.9,96.9,Pass
+BCA26-1151,BCA Cloud & Cyber,Sem 3,Data Structures,Male,2026-08-30,89.4,5.1,95.5,92.4,73.6,88.3,Pass
+BCA26-1152,BCA Core,Sem 3,Operating Systems,Male,2026-08-31,99.5,4.1,75.7,79.8,75.0,91.7,Pass
+BCA26-1153,BCA Core,Sem 2,Software Engineering,Female,2026-08-31,71.0,4.8,81.6,79.6,68.5,78.7,Pass
+BCA26-1154,BCA Core,Sem 4,Python Programming,Female,2026-08-31,77.5,6.0,81.8,82.9,69.9,87.1,Pass
+BCA26-1155,BCA Cloud & Cyber,Sem 1,Data Structures,Female,2026-09-01,97.7,5.0,86.1,82.5,74.1,91.8,Pass
+BCA26-1156,BCA Core,Sem 3,Software Engineering,Female,2026-09-01,55.7,1.2,56.7,57.7,64.1,56.5,Pass
+BCA26-1157,BCA AI & DS,Sem 1,Operating Systems,Male,2026-09-02,94.3,,73.8,90.9,86.2,94.0,Pass
+BCA26-1158,BCA AI & DS,Sem 3,Python Programming,Male,2026-09-02,82.4,5.7,86.8,91.3,66.0,92.9,Pass
+BCA26-1159,BCA Core,Sem 1,Software Engineering,Female,2026-09-02,64.5,4.3,64.0,66.5,46.3,64.0,Pass
+BCA26-1160,BCA AI & DS,Sem 1,Software Engineering,Female,2026-09-03,58.1,2.3,53.8,75.2,68.4,70.5,Pass
+BCA26-1161,BCA Core,Sem 1,Software Engineering,Female,2026-09-03,67.4,5.5,79.5,78.3,61.5,77.4,Pass
+BCA26-1162,BCA AI & DS,Sem 3,Python Programming,Female,2026-09-04,45.7,4.0,65.5,73.7,61.4,67.1,Fail
+BCA26-1163,BCA AI & DS,Sem 3,Python Programming,Female,2026-09-04,69.9,3.2,68.8,68.0,54.8,64.9,Pass
+BCA26-1164,BCA AI & DS,Sem 3,Database Management Systems,Female,2026-09-04,84.9,4.1,84.2,85.6,83.5,83.7,Pass
+BCA26-1165,BCA Core,Sem 4,Operating Systems,Female,2026-09-05,70.1,3.4,78.2,81.3,86.1,84.0,Pass
+BCA26-1166,BCA Cloud & Cyber,Sem 2,Data Structures,Female,2026-09-05,95.2,5.0,92.5,90.4,80.7,99.0,Pass
+BCA26-1167,BCA Core,Sem 2,Software Engineering,Female,2026-09-06,98.9,6.8,87.1,98.0,83.9,99.0,Pass
+BCA26-1168,BCA Core,Sem 4,Database Management Systems,Female,2026-09-06,93.7,5.9,92.5,79.4,78.4,97.0,Pass
+BCA26-1169,BCA Core,Sem 2,Data Structures,Male,2026-09-06,79.6,5.5,80.2,98.0,80.8,89.7,Pass
+BCA26-1170,BCA AI & DS,Sem 4,Database Management Systems,Female,2026-09-07,45.1,3.2,69.1,68.9,62.1,63.0,Fail
+BCA26-1171,BCA AI & DS,Sem 1,Python Programming,Male,2026-09-07,67.0,5.7,73.3,80.9,78.5,89.5,Pass
+BCA26-1172,BCA Core,Sem 4,Software Engineering,Female,2026-09-08,74.6,3.1,67.7,71.7,63.2,65.5,Pass
+BCA26-1173,BCA AI & DS,Sem 1,Data Structures,Female,2026-09-08,64.4,4.1,64.5,69.7,69.1,64.8,Pass
+BCA26-1174,BCA Core,Sem 4,Data Structures,Female,2026-09-09,74.6,1.9,67.9,75.4,61.2,67.1,Pass
+BCA26-1175,BCA AI & DS,Sem 3,Data Structures,Male,2026-09-09,98.2,4.2,86.0,94.3,70.7,92.5,Pass
+BCA26-1176,BCA Core,Sem 4,Data Structures,Male,2026-09-09,54.3,3.0,64.4,65.4,60.3,64.2,Pass
+BCA26-1177,BCA AI & DS,Sem 1,Data Structures,Male,2026-09-10,99.5,6.2,91.4,98.0,76.5,99.0,Pass
+BCA26-1178,BCA Core,Sem 3,Database Management Systems,Female,2026-09-10,88.4,5.0,85.5,84.5,85.7,90.2,Pass
+BCA26-1179,BCA Cloud & Cyber,Sem 4,Software Engineering,Male,2026-09-11,80.1,4.0,73.4,73.3,65.4,78.9,Pass
+BCA26-1180,BCA Core,Sem 3,Python Programming,Male,2026-09-11,66.9,3.4,61.9,84.9,68.6,60.6,Pass
+BCA26-1181,BCA Core,Sem 3,Python Programming,Male,2026-09-11,64.7,5.2,65.5,80.3,64.6,72.4,Pass
+BCA26-1182,BCA Core,Sem 3,Python Programming,Female,2026-09-12,54.5,2.6,66.5,74.2,61.9,64.1,Pass
+BCA26-1183,BCA Cloud & Cyber,Sem 3,Python Programming,Female,2026-09-12,99.5,7.7,96.4,95.2,82.8,99.0,Pass
+BCA26-1184,BCA Cloud & Cyber,Sem 3,Database Management Systems,Male,2026-09-13,97.3,6.5,77.0,88.9,73.9,99.0,Pass
+BCA26-1185,BCA Core,Sem 3,Operating Systems,Male,2026-09-13,57.5,3.8,71.9,69.0,67.1,65.3,Pass
+BCA26-1186,BCA AI & DS,Sem 4,Software Engineering,Male,2026-09-13,69.0,2.6,78.5,66.7,63.1,74.3,Pass
+BCA26-1187,BCA Cloud & Cyber,Sem 1,Data Structures,Female,2026-09-14,82.3,5.8,76.2,92.3,78.7,87.7,Pass
+BCA26-1188,BCA AI & DS,Sem 2,Operating Systems,Female,2026-09-14,72.5,3.6,72.7,71.4,65.1,71.6,Pass
+BCA26-1189,BCA AI & DS,Sem 4,Python Programming,Male,2026-09-15,50.6,1.5,52.4,51.1,46.1,50.4,Fail
+BCA26-1190,BCA Core,Sem 4,Operating Systems,Female,2026-09-15,67.6,4.4,74.8,79.4,76.5,77.5,Pass
+BCA26-1191,BCA Core,Sem 3,Software Engineering,Male,2026-09-15,99.5,4.2,76.0,84.2,84.6,92.9,Pass
+BCA26-1192,BCA Cloud & Cyber,Sem 3,Data Structures,Female,2026-09-16,68.5,3.1,67.0,61.5,61.5,63.6,Pass
+BCA26-1193,BCA Cloud & Cyber,Sem 2,Data Structures,Male,2026-09-16,74.3,4.2,79.3,80.1,70.8,77.5,Pass
+BCA26-1194,BCA AI & DS,Sem 1,Software Engineering,Male,2026-09-17,61.0,5.9,80.2,69.4,77.1,83.6,Pass
+BCA26-1195,BCA Core,Sem 3,Software Engineering,Male,2026-09-17,84.4,4.1,79.7,87.4,70.1,79.9,Pass
+BCA26-1196,BCA Core,Sem 2,Python Programming,Female,2026-09-17,78.1,4.0,71.8,71.5,68.9,76.2,Pass
+BCA26-1197,BCA AI & DS,Sem 3,Data Structures,Female,2026-09-18,66.5,4.6,60.5,63.8,70.2,63.0,Pass
+BCA26-1198,BCA Cloud & Cyber,Sem 1,Operating Systems,Male,2026-09-18,58.9,2.0,55.4,63.1,56.6,65.0,Pass
+BCA26-1199,BCA Cloud & Cyber,Sem 4,Database Management Systems,Female,2026-09-19,95.5,6.0,83.9,96.5,88.1,99.0,Pass
+BCA26-1200,BCA AI & DS,Sem 4,Database Management Systems,Female,2026-09-19,54.8,4.4,60.8,73.5,62.6,79.6,Pass
+BCA26-1201,BCA AI & DS,Sem 3,Software Engineering,Male,2026-09-19,83.3,4.5,78.0,83.9,68.2,87.7,Pass
+BCA26-1202,BCA Core,Sem 3,Python Programming,Male,2026-09-20,47.4,3.8,58.3,60.3,64.5,56.3,Fail
+BCA26-1203,BCA Core,Sem 2,Database Management Systems,Female,2026-09-20,86.0,5.3,82.1,90.2,68.2,90.2,Pass
+BCA26-1204,BCA Cloud & Cyber,Sem 4,Data Structures,Male,2026-09-21,89.6,4.4,,95.9,91.2,89.8,Pass
+BCA26-1205,BCA AI & DS,Sem 3,Software Engineering,Male,2026-09-21,91.3,5.1,80.0,85.0,90.0,97.6,Pass
+BCA26-1206,BCA Core,Sem 1,Operating Systems,Female,2026-09-21,74.3,3.8,62.9,77.8,73.2,70.1,Pass
+BCA26-1207,BCA Core,Sem 4,Software Engineering,Male,2026-09-22,97.9,5.6,82.2,93.2,84.8,90.5,Pass
+BCA26-1208,BCA AI & DS,Sem 4,Operating Systems,Male,2026-09-22,99.5,5.9,92.1,97.7,85.7,93.1,Pass
+BCA26-1209,BCA Core,Sem 4,Software Engineering,Male,2026-09-23,72.2,4.8,78.2,78.0,67.2,76.6,Pass
+BCA26-1210,BCA Core,Sem 3,Software Engineering,Female,2026-09-23,70.4,4.6,75.1,78.7,72.0,75.4,Pass
+BCA26-1211,BCA AI & DS,Sem 3,Software Engineering,Male,2026-09-23,78.5,1.8,76.5,76.3,59.5,64.4,Pass
+BCA26-1212,BCA AI & DS,Sem 2,Operating Systems,Male,2026-09-24,70.1,3.9,69.2,70.5,71.9,81.3,Pass
+BCA26-1213,BCA AI & DS,Sem 4,Operating Systems,Male,2026-09-24,68.1,2.2,78.1,76.2,70.2,73.3,Pass
+BCA26-1214,BCA Core,Sem 4,Software Engineering,Male,2026-09-25,69.3,3.7,74.8,81.6,64.6,76.6,Pass
+BCA26-1215,BCA AI & DS,Sem 1,Database Management Systems,Male,2026-09-25,99.5,5.6,71.1,98.0,77.7,99.0,Pass
+BCA26-1216,BCA Core,Sem 1,Python Programming,Male,2026-09-26,86.9,6.1,95.3,75.7,69.7,89.6,Pass
+BCA26-1217,BCA Core,Sem 2,Python Programming,Female,2026-09-26,70.0,4.0,65.6,77.9,79.2,73.0,Pass
+BCA26-1218,BCA AI & DS,Sem 4,Python Programming,Male,2026-09-26,43.4,2.7,49.1,48.0,52.3,42.2,Fail
+BCA26-1219,BCA AI & DS,Sem 4,Operating Systems,Male,2026-09-27,55.6,4.0,68.0,55.1,61.8,59.9,Pass
+BCA26-1220,BCA Cloud & Cyber,Sem 1,Operating Systems,Male,2026-09-27,83.3,6.1,70.8,90.3,79.8,95.5,Pass
+BCA26-1221,BCA AI & DS,Sem 3,Database Management Systems,Male,2026-09-28,47.9,2.5,52.6,60.1,59.4,50.2,Fail
+BCA26-1222,BCA AI & DS,Sem 2,Python Programming,Male,2026-09-28,80.5,4.7,87.1,86.5,79.1,88.5,Pass
+BCA26-1223,BCA Core,Sem 4,Python Programming,Female,2026-09-28,62.1,3.5,69.5,73.8,61.6,73.2,Pass
+BCA26-1224,BCA Core,Sem 4,Software Engineering,Male,2026-09-29,77.7,3.9,78.8,85.4,62.2,79.8,Pass
+BCA26-1225,BCA Core,Sem 4,Operating Systems,Male,2026-09-29,77.4,3.6,68.3,77.0,60.2,74.5,Pass
+BCA26-1226,BCA Core,Sem 3,Python Programming,Male,2026-09-30,78.1,2.0,58.4,90.9,62.4,74.0,Pass
+BCA26-1227,BCA Cloud & Cyber,Sem 2,Database Management Systems,Female,2026-09-30,71.2,2.9,72.6,74.2,59.2,71.1,Pass
+BCA26-1228,BCA Core,Sem 2,Database Management Systems,Female,2026-09-30,70.7,2.1,71.6,81.8,62.1,76.7,Pass
+BCA26-1229,BCA Cloud & Cyber,Sem 1,Python Programming,Female,2026-10-01,66.8,5.2,78.4,66.9,79.6,73.8,Pass
+BCA26-1230,BCA AI & DS,Sem 4,Operating Systems,Male,2026-10-01,83.0,5.0,80.2,93.0,72.2,88.2,Pass
+BCA26-1231,BCA AI & DS,Sem 4,Database Management Systems,Female,2026-10-02,87.4,4.9,74.1,85.5,73.5,77.3,Pass
+BCA26-1232,BCA AI & DS,Sem 4,Software Engineering,Male,2026-10-02,60.0,2.6,78.3,56.2,61.6,54.2,Pass
+BCA26-1233,BCA AI & DS,Sem 4,Database Management Systems,Male,2026-10-02,75.8,4.4,77.3,82.3,68.2,79.3,Pass
+BCA26-1234,BCA Core,Sem 3,Data Structures,Male,2026-10-03,79.2,3.6,72.2,77.7,70.1,78.7,Pass
+BCA26-1235,BCA Core,Sem 3,Data Structures,Male,2026-10-03,79.0,4.7,75.2,87.2,77.0,90.8,Pass
+BCA26-1236,BCA AI & DS,Sem 4,Operating Systems,Female,2026-10-04,78.8,4.8,77.5,90.6,79.8,96.4,Pass
+BCA26-1237,BCA Core,Sem 4,Python Programming,Female,2026-10-04,71.1,3.1,75.5,67.2,74.2,77.5,Pass
+BCA26-1238,BCA Core,Sem 2,Operating Systems,Male,2026-10-04,80.3,3.6,75.0,89.6,86.5,87.2,Pass
+BCA26-1239,BCA AI & DS,Sem 3,Operating Systems,Female,2026-10-05,84.8,5.9,87.7,90.0,81.9,93.4,Pass
+BCA26-1240,BCA Core,Sem 1,Operating Systems,Female,2026-10-05,78.4,4.4,76.2,93.5,88.9,81.2,Pass
+BCA26-1241,BCA Cloud & Cyber,Sem 4,Operating Systems,Female,2026-10-06,83.3,3.9,75.2,79.9,66.9,78.0,Pass
+BCA26-1242,BCA Cloud & Cyber,Sem 3,Software Engineering,Female,2026-10-06,89.9,4.8,85.4,88.7,92.7,98.0,Pass
+BCA26-1243,BCA Cloud & Cyber,Sem 2,Software Engineering,Female,2026-10-06,51.5,1.8,60.6,61.1,54.1,58.9,Fail
+BCA26-1244,BCA Core,Sem 3,Database Management Systems,Female,2026-10-07,89.2,5.1,80.6,88.8,75.3,83.0,Pass
+BCA26-1245,BCA Core,Sem 3,Data Structures,Female,2026-10-07,81.1,5.6,74.9,82.3,74.8,87.5,Pass
+BCA26-1246,BCA Cloud & Cyber,Sem 2,Operating Systems,Male,2026-10-08,61.5,3.5,67.9,67.9,62.6,69.2,Pass
+BCA26-1247,BCA Core,Sem 1,Database Management Systems,Male,2026-10-08,87.3,7.6,88.5,88.1,82.9,99.0,Pass
+BCA26-1248,BCA Cloud & Cyber,Sem 3,Data Structures,Female,2026-10-08,71.1,4.5,68.9,75.0,65.4,74.4,Pass
+BCA26-1249,BCA Cloud & Cyber,Sem 3,Python Programming,Male,2026-10-09,73.0,4.4,67.5,84.6,76.5,82.3,Pass
+BCA26-1250,BCA Cloud & Cyber,Sem 3,Software Engineering,Female,2026-10-09,,3.0,70.3,71.7,61.8,71.8,Pass
+BCA26-1251,BCA Core,Sem 3,Data Structures,Male,2026-10-10,80.6,4.4,79.7,89.8,77.8,82.7,Pass
+BCA26-1252,BCA Core,Sem 4,Python Programming,Male,2026-10-10,65.9,2.9,63.5,72.9,75.9,71.8,Pass
+BCA26-1253,BCA Cloud & Cyber,Sem 3,Data Structures,Male,2026-10-10,88.7,2.7,71.0,72.1,69.3,73.4,Pass
+BCA26-1254,BCA Core,Sem 3,Software Engineering,Male,2026-10-11,74.6,5.3,70.8,87.5,78.7,77.9,Pass
+BCA26-1255,BCA Core,Sem 4,Software Engineering,Female,2026-10-11,71.6,3.5,72.4,72.8,72.0,71.2,Pass
+BCA26-1256,BCA AI & DS,Sem 2,Database Management Systems,Female,2026-10-12,86.7,4.2,72.9,87.2,91.5,80.6,Pass
+BCA26-1257,BCA Cloud & Cyber,Sem 1,Operating Systems,Female,2026-10-12,72.2,4.4,87.2,85.4,66.2,85.4,Pass
+BCA26-1258,BCA AI & DS,Sem 1,Data Structures,Female,2026-10-13,89.3,5.7,80.8,84.9,84.8,92.5,Pass
+BCA26-1259,BCA AI & DS,Sem 3,Data Structures,Male,2026-10-13,89.7,4.8,65.4,86.3,64.8,80.2,Pass
+BCA26-1260,BCA Core,Sem 3,Python Programming,Male,2026-10-13,58.5,3.3,63.6,68.2,59.0,70.2,Pass
+BCA26-1261,BCA AI & DS,Sem 3,Software Engineering,Female,2026-10-14,91.5,6.1,85.0,97.5,83.1,96.9,Pass
+BCA26-1262,BCA Cloud & Cyber,Sem 2,Data Structures,Male,2026-10-14,56.8,2.8,68.9,74.4,71.5,62.1,Pass
+BCA26-1263,BCA Core,Sem 1,Software Engineering,Male,2026-10-15,92.3,5.7,86.6,91.5,70.7,89.8,Pass
+BCA26-1264,BCA AI & DS,Sem 1,Data Structures,Male,2026-10-15,99.5,3.9,77.3,88.9,84.3,95.8,Pass
+BCA26-1265,BCA Cloud & Cyber,Sem 2,Database Management Systems,Male,2026-10-15,88.3,3.7,75.6,86.8,73.6,79.9,Pass
+BCA26-1266,BCA AI & DS,Sem 3,Operating Systems,Female,2026-10-16,47.4,3.3,61.3,69.7,47.4,60.4,Fail
+BCA26-1267,BCA AI & DS,Sem 2,Data Structures,Female,2026-10-16,90.9,3.8,64.7,85.7,76.5,84.8,Pass
+BCA26-1268,BCA AI & DS,Sem 2,Software Engineering,Male,2026-10-17,99.5,6.0,97.3,97.3,95.8,99.0,Pass
+BCA26-1269,BCA Core,Sem 4,Database Management Systems,Female,2026-10-17,72.4,4.0,66.2,78.2,60.7,83.1,Pass
+BCA26-1270,BCA Core,Sem 2,Data Structures,Female,2026-10-17,76.0,4.0,82.3,79.4,69.6,74.2,Pass
+BCA26-1271,BCA Cloud & Cyber,Sem 3,Python Programming,Male,2026-10-18,60.5,2.5,65.0,58.2,54.3,54.5,Pass
+BCA26-1272,BCA Cloud & Cyber,Sem 3,Operating Systems,Female,2026-10-18,80.7,5.6,83.7,87.0,72.1,82.4,Pass
+BCA26-1273,BCA Cloud & Cyber,Sem 2,Data Structures,Female,2026-10-19,93.6,7.3,97.2,91.5,94.6,99.0,Pass
+BCA26-1274,BCA Cloud & Cyber,Sem 3,Database Management Systems,Male,2026-10-19,85.9,5.3,84.6,89.6,74.7,93.7,Pass
+BCA26-1275,BCA AI & DS,Sem 4,Python Programming,Male,2026-10-19,99.5,6.1,93.2,93.9,93.8,97.0,Pass
+BCA26-1276,BCA AI & DS,Sem 4,Database Management Systems,Male,2026-10-20,76.9,3.7,71.6,80.9,78.4,83.4,Pass
+BCA26-1277,BCA AI & DS,Sem 1,Database Management Systems,Male,2026-10-20,54.5,1.8,60.3,64.7,55.3,57.2,Pass
+BCA26-1278,BCA AI & DS,Sem 4,Python Programming,Male,2026-10-21,78.8,4.5,71.9,96.0,68.7,78.8,Pass
+BCA26-1279,BCA AI & DS,Sem 3,Database Management Systems,Female,2026-10-21,43.9,1.4,50.1,59.9,46.7,41.0,Fail
+BCA26-1280,BCA AI & DS,Sem 2,Python Programming,Male,2026-10-21,69.3,2.0,77.5,77.0,56.7,61.6,Pass
+BCA26-1281,BCA Cloud & Cyber,Sem 3,Data Structures,Male,2026-10-22,98.4,6.6,84.6,98.0,86.6,97.4,Pass
+BCA26-1282,BCA Core,Sem 4,Python Programming,Female,2026-10-22,80.9,5.6,80.7,89.3,75.5,87.4,Pass
+BCA26-1283,BCA Core,Sem 3,Python Programming,Female,2026-10-23,78.9,3.6,74.0,80.2,65.9,82.1,Pass
+BCA26-1284,BCA Core,Sem 2,Operating Systems,Male,2026-10-23,99.5,6.0,86.6,87.1,71.4,96.3,Pass
+BCA26-1285,BCA AI & DS,Sem 3,Python Programming,Male,2026-10-23,72.8,5.3,78.8,81.3,72.9,78.8,Pass
+BCA26-1286,BCA Core,Sem 2,Python Programming,Male,2026-10-24,93.5,5.6,88.8,87.0,76.5,93.8,Pass
+BCA26-1287,BCA Core,Sem 1,Data Structures,Female,2026-10-24,78.2,3.2,65.8,75.2,67.9,79.6,Pass
+BCA26-1288,BCA AI & DS,Sem 1,Operating Systems,Male,2026-10-25,81.6,4.4,77.3,94.8,75.5,93.9,Pass
+BCA26-1289,BCA Core,Sem 1,Software Engineering,Male,2026-10-25,60.1,4.9,61.9,71.4,48.1,65.6,Pass
+BCA26-1290,BCA AI & DS,Sem 1,Data Structures,Female,2026-10-25,70.0,4.3,76.6,69.7,57.5,76.1,Pass
+BCA26-1291,BCA Core,Sem 1,Data Structures,Male,2026-10-26,57.6,3.8,66.0,82.4,80.7,80.4,Pass
+BCA26-1292,BCA Core,Sem 3,Software Engineering,Female,2026-10-26,75.2,4.7,75.3,86.0,67.9,74.5,Pass
+BCA26-1293,BCA Cloud & Cyber,Sem 1,Python Programming,Female,2026-10-27,81.8,3.8,79.3,83.3,53.1,74.6,Pass
+BCA26-1294,BCA Core,Sem 2,Database Management Systems,Male,2026-10-27,61.5,2.8,61.9,54.7,51.8,67.2,Pass
+BCA26-1295,BCA Core,Sem 4,Operating Systems,Female,2026-10-27,99.5,6.1,94.8,98.0,97.0,99.0,Pass
+BCA26-1296,BCA AI & DS,Sem 3,Database Management Systems,Male,2026-10-28,80.3,5.5,73.0,81.3,69.9,70.4,Pass
+BCA26-1297,BCA AI & DS,Sem 3,Software Engineering,Female,2026-10-28,77.3,5.6,87.3,91.3,83.1,90.4,Pass
+BCA26-1298,BCA Core,Sem 1,Data Structures,Female,2026-10-29,86.9,4.1,74.4,98.0,75.3,91.4,Pass
+BCA26-1299,BCA AI & DS,Sem 1,Data Structures,Female,2026-10-29,65.3,4.2,58.2,87.2,63.5,73.3,Pass
+BCA26-1300,BCA Core,Sem 1,Operating Systems,Female,2026-10-30,78.7,5.8,77.2,81.4,81.1,89.5,Pass
+BCA26-1006,BCA Core,Sem 4,Software Engineering,Male,2026-07-03,70.1,4.4,77.3,74.1,71.0,76.0,Pass
+BCA26-1034,BCA Cloud & Cyber,Sem 1,Software Engineering,Female,2026-07-14,68.1,3.6,78.5,85.3,67.2,75.1,Pass
+BCA26-1092,BCA AI & DS,Sem 2,Operating Systems,Female,2026-08-06,87.9,5.9,68.6,83.0,72.1,84.3,Pass
+BCA26-1141,BCA Cloud & Cyber,Sem 1,Operating Systems,Male,2026-08-26,70.9,4.8,94.4,84.3,68.4,83.2,Pass
