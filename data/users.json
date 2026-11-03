@@ -1,0 +1,26 @@
+{
+  "student@studentai.edu": {
+    "id": "00000000-0000-0000-0000-000000000001",
+    "email": "student@studentai.edu",
+    "full_name": "BCA Demo Student",
+    "role": "USER",
+    "password_hash": "ef92b778bafe771e89245b89ecbc08a44a4e166c06659911881f383d4473e94f",
+    "created_at": "2026-11-03T16:58:57.789721"
+  },
+  "admin.faculty@studentai.edu": {
+    "id": "00000000-0000-0000-0000-000000000002",
+    "email": "admin.faculty@studentai.edu",
+    "full_name": "BCA Project Evaluator",
+    "role": "ADMIN",
+    "password_hash": "ef92b778bafe771e89245b89ecbc08a44a4e166c06659911881f383d4473e94f",
+    "created_at": "2026-11-03T16:58:57.789721"
+  },
+  "shakibbhutto018@gmail.com": {
+    "id": "ff158bb8-4765-4ddf-83e9-5502f7c99184",
+    "email": "shakibbhutto018@gmail.com",
+    "full_name": "Mohammad Shakib",
+    "role": "ADMIN",
+    "password_hash": "d5a92c49788eb6cb8f7647949b1647df70399000dda061d0e9e15dda83ff60ee",
+    "created_at": "2026-11-03T17:01:44.746931"
+  }
+}

@@ -70,10 +70,12 @@ def render(sb: SupabaseService) -> None:
                     elif any(k in col_low for k in ("attendance", "score", "mark", "pct", "percent")):
                         min_v, max_v, step_v = 0.0, 100.0, 1.0
                     else:
-                        min_v = float(min(0.0, meta["min"]))
-                        max_v = float(max(100.0, meta["max"]))
+                        min_v = float(min(0.0, meta.get("min", 0.0)))
+                        max_v = float(max(100.0, meta.get("max", 100.0)))
                         step_v = 1.0
-                    default_v = float(min(max(meta["median"], min_v), max_v))
+                    if max_v <= min_v:
+                        max_v = min_v + 10.0
+                    default_v = float(min(max(meta.get("median", min_v), min_v), max_v))
                     input_values[col_name] = st.number_input(
                         f"{col_name}",
                         min_value=min_v,

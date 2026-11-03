@@ -47,7 +47,7 @@ def render(sb: SupabaseService) -> None:
                 default=categorical_cols[:2] if len(categorical_cols) >= 2 else categorical_cols,
             )
             for c_col in selected_cat_cols:
-                unique_vals = sorted(filtered_df[c_col].dropna().astype(str).unique().tolist())
+                unique_vals = sorted(df[c_col].dropna().astype(str).unique().tolist())
                 if 1 < len(unique_vals) <= 30:
                     chosen_vals = st.multiselect(f"Values for `{c_col}`", unique_vals, default=unique_vals)
                     filtered_df = filtered_df[filtered_df[c_col].astype(str).isin(chosen_vals)]
@@ -59,9 +59,9 @@ def render(sb: SupabaseService) -> None:
                 default=numeric_cols[:2] if len(numeric_cols) >= 2 else numeric_cols,
             )
             for n_col in selected_num_cols:
-                s = filtered_df[n_col].dropna()
-                if len(s) > 0 and float(s.min()) < float(s.max()):
-                    min_v, max_v = float(s.min()), float(s.max())
+                s_full = df[n_col].dropna()
+                if len(s_full) > 0 and float(s_full.min()) < float(s_full.max()):
+                    min_v, max_v = float(s_full.min()), float(s_full.max())
                     r_low, r_high = st.slider(
                         f"Range for `{n_col}`",
                         min_value=min_v,

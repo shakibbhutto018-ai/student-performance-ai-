@@ -48,6 +48,16 @@ def load_custom_css() -> None:
     st.markdown(
         """
         <script>
+        try {
+            var storedTok = localStorage.getItem('studentai_session');
+            if (storedTok) {
+                var sp = new URLSearchParams(window.location.search);
+                if (!sp.has('session_token')) {
+                    sp.set('session_token', storedTok);
+                    window.location.search = sp.toString();
+                }
+            }
+        } catch(e) {}
         window.addEventListener('vite:preloadError', function(e) {
             window.location.reload();
         });
@@ -164,6 +174,8 @@ def render_login_landing(sb: SupabaseService) -> None:
                         st.session_state["authenticated"] = True
                         st.session_state["auth_user"] = user_data
                         st.session_state["cloud_history_loaded"] = False
+                        tok = sb.create_session_token(user_data)
+                        st.query_params["session_token"] = tok
                         sync_user_cloud_history(sb)
                         st.toast(msg, icon="✅")
                         st.rerun()
@@ -185,6 +197,8 @@ def render_login_landing(sb: SupabaseService) -> None:
                         st.session_state["authenticated"] = True
                         st.session_state["auth_user"] = user_data
                         st.session_state["cloud_history_loaded"] = False
+                        tok = sb.create_session_token(user_data)
+                        st.query_params["session_token"] = tok
                         sync_user_cloud_history(sb)
                         st.toast(f"Account created! Welcome, {user_data.get('full_name')}!", icon="🎉")
                         st.rerun()
@@ -204,8 +218,7 @@ def render_login_landing(sb: SupabaseService) -> None:
         col_d1, col_d2 = st.columns(2)
         with col_d1:
             if st.button("🎓 Demo Student", use_container_width=True):
-                st.session_state["authenticated"] = True
-                st.session_state["auth_user"] = {
+                u_demo = {
                     "id": "00000000-0000-0000-0000-000000000001",
                     "email": "student@studentai.edu",
                     "full_name": "BCA Demo Student",
@@ -213,11 +226,13 @@ def render_login_landing(sb: SupabaseService) -> None:
                     "access_token": None,
                     "is_cloud_authenticated": False,
                 }
+                st.session_state["authenticated"] = True
+                st.session_state["auth_user"] = u_demo
+                st.query_params["session_token"] = sb.create_session_token(u_demo)
                 st.rerun()
         with col_d2:
             if st.button("👨‍🏫 Faculty (Admin)", use_container_width=True):
-                st.session_state["authenticated"] = True
-                st.session_state["auth_user"] = {
+                u_faculty = {
                     "id": "00000000-0000-0000-0000-000000000002",
                     "email": "admin.faculty@studentai.edu",
                     "full_name": "BCA Project Evaluator",
@@ -225,6 +240,9 @@ def render_login_landing(sb: SupabaseService) -> None:
                     "access_token": None,
                     "is_cloud_authenticated": False,
                 }
+                st.session_state["authenticated"] = True
+                st.session_state["auth_user"] = u_faculty
+                st.query_params["session_token"] = sb.create_session_token(u_faculty)
                 st.rerun()
 
         st.markdown("</div>", unsafe_allow_html=True)
@@ -330,6 +348,15 @@ def render_authenticated_app(sb: SupabaseService) -> None:
 
         if st.button("Logout", use_container_width=True):
             sb.logout_user(user.get("access_token"), user.get("id"))
+            st.query_params.clear()
+            st.markdown(
+                """
+                <script>
+                try { localStorage.removeItem('studentai_session'); } catch(e) {}
+                </script>
+                """,
+                unsafe_allow_html=True,
+            )
             for k in list(st.session_state.keys()):
                 del st.session_state[k]
             st.rerun()
@@ -360,6 +387,17 @@ def main() -> None:
     load_custom_css()
     init_session_state()
     sb = SupabaseService()
+
+    # Automatic persistent auto-login check via URL session token
+    if not st.session_state.get("authenticated"):
+        session_token = st.query_params.get("session_token")
+        if session_token:
+            restored_user = sb.get_user_by_session_token(session_token)
+            if restored_user:
+                st.session_state["authenticated"] = True
+                st.session_state["auth_user"] = restored_user
+                st.session_state["cloud_history_loaded"] = False
+                sync_user_cloud_history(sb)
 
     if not st.session_state.get("authenticated"):
         render_login_landing(sb)

@@ -13,7 +13,8 @@ import numpy as np
 CANONICAL_COLUMN_PATTERNS: Dict[str, List[str]] = {
     "student_id": [
         r"^student[_\s-]?id$", r"^roll[_\s-]?no$", r"^roll[_\s-]?number$",
-        r"^uid$", r"^enrollment[_\s-]?no$", r"^reg[_\s-]?no$", r"^id$"
+        r"^uid$", r"^enrollment[_\s-]?no$", r"^reg[_\s-]?no$", r"^id$",
+        r"^unnamed.*", r"^index$"
     ],
     "attendance": [
         r"attendance", r"attend[_\s-]?pct", r"attendance[_\s-]?percentage",
