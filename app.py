@@ -145,9 +145,10 @@ def render_login_landing(sb: SupabaseService) -> None:
                 reg_name = st.text_input("Full Name", placeholder="e.g. Mohammed Shakib")
                 reg_email = st.text_input("Email Address", placeholder="student@university.edu")
                 reg_password = st.text_input("Password", type="password", placeholder="Minimum 4 characters")
-                role_choice = st.selectbox(
+                role_choice = st.radio(
                     "Account Role",
                     ["🎓 Student (Learner)", "👨‍🏫 Faculty / Evaluator (Admin)"],
+                    horizontal=True,
                     index=0,
                 )
                 reg_role = "ADMIN" if "Faculty" in role_choice else "USER"
