@@ -5,6 +5,11 @@ Run command: streamlit run app.py
 """
 
 import os
+import sys
+
+# Ensure project root is always at the top of sys.path for Streamlit Cloud deployment
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+
 from typing import Dict, Any
 import streamlit as st
 from dotenv import load_dotenv
