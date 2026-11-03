@@ -38,11 +38,28 @@ from pages import (
 
 
 def load_custom_css() -> None:
-    """Loads custom SaaS CSS from assets/styles.css using relative path."""
+    """Loads custom SaaS CSS and client-side dynamic chunk auto-recovery."""
     css_path = os.path.join(os.path.dirname(__file__), "assets", "styles.css")
     if os.path.exists(css_path):
         with open(css_path, "r", encoding="utf-8") as f:
             st.markdown(f"<style>{f.read()}</style>", unsafe_allow_html=True)
+
+    # Automatic recovery handler for Streamlit Cloud CDN / Vite chunk cache desync
+    st.markdown(
+        """
+        <script>
+        window.addEventListener('vite:preloadError', function(e) {
+            window.location.reload();
+        });
+        window.addEventListener('error', function(e) {
+            if (e.message && (e.message.indexOf('dynamically imported module') !== -1 || e.message.indexOf('Loading chunk') !== -1)) {
+                window.location.reload();
+            }
+        });
+        </script>
+        """,
+        unsafe_allow_html=True,
+    )
 
 
 def init_session_state() -> None:
@@ -145,13 +162,8 @@ def render_login_landing(sb: SupabaseService) -> None:
                 reg_name = st.text_input("Full Name", placeholder="e.g. Mohammed Shakib")
                 reg_email = st.text_input("Email Address", placeholder="student@university.edu")
                 reg_password = st.text_input("Password", type="password", placeholder="Minimum 4 characters")
-                role_choice = st.radio(
-                    "Account Role",
-                    ["🎓 Student (Learner)", "👨‍🏫 Faculty / Evaluator (Admin)"],
-                    horizontal=True,
-                    index=0,
-                )
-                reg_role = "ADMIN" if "Faculty" in role_choice else "USER"
+                is_admin_reg = st.checkbox("Register as Faculty / Evaluator (Admin)", value=False)
+                reg_role = "ADMIN" if is_admin_reg else "USER"
                 submit_reg = st.form_submit_button("Create Account & Sign In", type="primary", use_container_width=True)
 
                 if submit_reg:
