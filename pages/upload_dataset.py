@@ -14,6 +14,28 @@ from utils.validators import validate_uploaded_dataframe, smart_detect_columns
 from utils.data_cleaner import inspect_dataset, clean_dataset
 
 
+def _reset_dataset_session() -> None:
+    """Safely resets the active dataset and dependent ML models/predictions."""
+    keys = [
+        "raw_df",
+        "cleaned_df",
+        "dataset_filename",
+        "dataset_id",
+        "dataset_inspection",
+        "cleaning_report",
+        "column_mapping",
+        "trained_models",
+        "active_model_key",
+        "latest_prediction",
+        "latest_prediction_id",
+        "latest_ai_insight",
+        "dataset_chat_history",
+    ]
+    for k in keys:
+        if k in st.session_state:
+            st.session_state[k] = None if "models" not in k and "history" not in k else ({} if "models" in k else [])
+
+
 def render(sb: SupabaseService) -> None:
     st.markdown(
         """
@@ -24,6 +46,35 @@ def render(sb: SupabaseService) -> None:
         """,
         unsafe_allow_html=True,
     )
+
+    raw_df = st.session_state.get("raw_df")
+
+    # If dataset is already loaded, show control bar to change or remove it
+    if raw_df is not None:
+        filename = st.session_state.get("dataset_filename", "dataset.csv")
+        st.markdown(
+            f"""
+            <div style="background: #F8FAFC; border: 1px solid #E2E8F0; border-radius: 12px; padding: 0.9rem 1.25rem; margin-bottom: 1.25rem;">
+                <span style="font-size: 0.72rem; font-weight: 700; color: #2563EB; text-transform: uppercase; letter-spacing: 0.05em;">Current Active Dataset</span>
+                <div style="font-size: 1.05rem; font-weight: 700; color: #0F172A; margin-top: 2px;">
+                    📄 {filename} <span style="font-size: 0.85rem; font-weight: 500; color: #64748B;">({len(raw_df):,} rows, {len(raw_df.columns)} columns)</span>
+                </div>
+            </div>
+            """,
+            unsafe_allow_html=True,
+        )
+        c_btn1, c_btn2, _ = st.columns([1, 1, 1.5])
+        with c_btn1:
+            if st.button("🗑️ Remove / Clear Dataset", type="secondary", use_container_width=True, help="Unload dataset and reset all models"):
+                _reset_dataset_session()
+                st.toast("Dataset removed successfully.", icon="🗑️")
+                st.rerun()
+        with c_btn2:
+            if st.button("🔄 Change / Upload New CSV", type="primary", use_container_width=True, help="Upload a different CSV file"):
+                _reset_dataset_session()
+                st.toast("Upload or select a new dataset below.", icon="🔄")
+                st.rerun()
+        st.markdown("<hr style='margin: 1.25rem 0; border-color: #E2E8F0;'>", unsafe_allow_html=True)
 
     col_up, col_sample = st.columns([2, 1])
 

@@ -56,6 +56,19 @@ def load_custom_css() -> None:
                 window.location.reload();
             }
         });
+        if (window.MutationObserver) {
+            var observer = new MutationObserver(function() {
+                var els = document.querySelectorAll('.stAlert, [data-testid="stNotification"], .element-container');
+                for (var i = 0; i < els.length; i++) {
+                    if (els[i].innerText && els[i].innerText.indexOf('Failed to fetch dynamically imported module') !== -1) {
+                        observer.disconnect();
+                        window.location.reload();
+                        break;
+                    }
+                }
+            });
+            observer.observe(document.body, { childList: true, subtree: true });
+        }
         </script>
         """,
         unsafe_allow_html=True,
@@ -277,15 +290,41 @@ def render_authenticated_app(sb: SupabaseService) -> None:
 
         st.markdown("<hr style='margin: 1rem 0; border-color: #E2E8F0;'>", unsafe_allow_html=True)
 
-        # Quick dataset status pill in sidebar
+        # Quick dataset status and control in sidebar
         active_df = st.session_state.get("cleaned_df")
         if active_df is None:
             active_df = st.session_state.get("raw_df")
         if active_df is not None:
-            st.caption(
-                f"Active Dataset: **{st.session_state.get('dataset_filename', 'Loaded')}** "
-                f"({len(active_df)} rows)"
+            ds_name = st.session_state.get("dataset_filename", "Loaded")
+            st.markdown(
+                f"""
+                <div style="background: #F1F5F9; border: 1px solid #E2E8F0; border-radius: 8px; padding: 0.55rem 0.75rem; margin-bottom: 0.5rem;">
+                    <div style="font-size: 0.68rem; text-transform: uppercase; color: #2563EB; font-weight: 700;">Active Dataset</div>
+                    <div style="font-size: 0.8rem; font-weight: 600; color: #0F172A; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">
+                        📄 {ds_name}
+                    </div>
+                    <div style="font-size: 0.72rem; color: #64748B;">{len(active_df):,} records</div>
+                </div>
+                """,
+                unsafe_allow_html=True,
             )
+            col_sb1, col_sb2 = st.columns(2)
+            with col_sb1:
+                if st.button("🔄 Change", use_container_width=True, help="Switch / upload a different dataset"):
+                    st.session_state["current_page"] = "Dataset"
+                    st.rerun()
+            with col_sb2:
+                if st.button("🗑️ Remove", use_container_width=True, help="Unload dataset and reset workspace"):
+                    keys_to_clear = [
+                        "raw_df", "cleaned_df", "dataset_filename", "dataset_id",
+                        "dataset_inspection", "cleaning_report", "column_mapping",
+                        "trained_models", "active_model_key", "latest_prediction",
+                        "latest_prediction_id", "latest_ai_insight", "dataset_chat_history"
+                    ]
+                    for k in keys_to_clear:
+                        if k in st.session_state:
+                            st.session_state[k] = None if "models" not in k and "history" not in k else ({} if "models" in k else [])
+                    st.rerun()
         else:
             st.caption("No dataset loaded yet.")
 
