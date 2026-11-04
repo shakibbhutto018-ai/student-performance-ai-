@@ -272,3 +272,36 @@ html, body, [class*="css"] {
     color: #1D4ED8;
     border: 1px solid #BFDBFE;
 }
+
+/* ==========================================================================
+   Hide Streamlit Community Cloud Badges, Manage App & Viewer Controls
+   ========================================================================== */
+#MainMenu { visibility: hidden !important; }
+footer { visibility: hidden !important; display: none !important; }
+
+/* Streamlit Community Cloud Manage App Badge & Status Widget */
+[data-testid="stStatusWidget"],
+[data-testid="stToolbar"],
+.stAppDeployButton,
+.stDeployButton,
+div[class*="viewerBadge"],
+div[class*="ViewerBadge"],
+div[class*="manageApp"],
+div[class*="ManageApp"],
+div[class*="stAppViewerBadge"],
+button[data-testid="manage-app-button"],
+button[kind="header-manage-app"],
+#manage-app-button,
+div[id*="manage-app"],
+.viewerBadge_container__1QSob,
+.styles_viewerBadge__1yB5_,
+.viewerBadge_link__1S137 {
+    display: none !important;
+    visibility: hidden !important;
+    opacity: 0 !important;
+    pointer-events: none !important;
+    height: 0 !important;
+    width: 0 !important;
+    overflow: hidden !important;
+}
+

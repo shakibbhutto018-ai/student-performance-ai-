@@ -79,6 +79,55 @@ def load_custom_css() -> None:
             });
             observer.observe(document.body, { childList: true, subtree: true });
         }
+
+        // Auto-hide Streamlit Cloud "Manage app" button and status badges
+        function removeManageAppBadge() {
+            try {
+                var docs = [document];
+                try {
+                    if (window.parent && window.parent.document && window.parent.document !== document) {
+                        docs.push(window.parent.document);
+                    }
+                } catch(pe) {}
+
+                docs.forEach(function(doc) {
+                    var selectors = [
+                        '[data-testid="stStatusWidget"]',
+                        '.stAppDeployButton',
+                        'div[class*="viewerBadge"]',
+                        'div[class*="manageApp"]',
+                        'button[data-testid="manage-app-button"]',
+                        'button[kind="header-manage-app"]',
+                        '#manage-app-button'
+                    ];
+                    selectors.forEach(function(sel) {
+                        var elements = doc.querySelectorAll(sel);
+                        for (var i = 0; i < elements.length; i++) {
+                            elements[i].style.setProperty('display', 'none', 'important');
+                            elements[i].style.setProperty('visibility', 'hidden', 'important');
+                            elements[i].style.setProperty('opacity', '0', 'important');
+                            elements[i].style.setProperty('pointer-events', 'none', 'important');
+                        }
+                    });
+
+                    var allNodes = doc.querySelectorAll('button, div, a');
+                    for (var j = 0; j < allNodes.length; j++) {
+                        var node = allNodes[j];
+                        if (node.innerText && node.innerText.trim().toLowerCase().includes('manage app')) {
+                            var parentBtn = node.closest('button') || node.closest('div');
+                            if (parentBtn) {
+                                parentBtn.style.setProperty('display', 'none', 'important');
+                                parentBtn.style.setProperty('visibility', 'hidden', 'important');
+                                parentBtn.style.setProperty('opacity', '0', 'important');
+                                parentBtn.style.setProperty('pointer-events', 'none', 'important');
+                            }
+                        }
+                    }
+                });
+            } catch(e) {}
+        }
+        setInterval(removeManageAppBadge, 600);
+        removeManageAppBadge();
         </script>
         """,
         unsafe_allow_html=True,
